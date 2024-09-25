@@ -1,0 +1,214 @@
+*{
+   padding: 0;
+   margin: 0;
+}
+
+.header {
+   background: #030303f2;
+   width: 100%;
+   display: flex;
+}
+
+body {
+   margin: 0;
+   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+   font-size: 14px;
+   line-height: 1.42857143;
+   color: #333;
+   background-color: #fff;
+}
+
+.logo {
+   width: 188px;
+   height: 112px;
+   padding: 26px
+}
+
+.i{
+   width: 115%;
+   height: 104%;
+   object-fit: contain;
+}
+
+.log {
+   height: 164px;
+   width: 100%;
+}
+
+.inner {
+   width: 1231px;
+   height: 63px;
+   background: #212121;
+   margin-left: 220px;
+   margin-top: 45px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.cap {
+   margin-left: 136px;
+}
+
+.cap ul {
+   font-size: 20px;
+   font-family: "Space Grotesk", sans-serif;
+   color: #fff;
+   display: flex;
+   list-style: none;
+}
+
+.cap li {
+   padding: 0 10px;
+}
+
+.par-img {
+   padding-left: 5px;
+   width: 30px;
+   height: 30px;
+}
+
+.par {
+   margin-right: 10px;
+}
+
+.main-body{
+   width: 100%;
+   height: 932px;
+   background: black;
+}
+
+.first{
+   width: 50%;
+   height: 932px;
+   float: left;
+}
+
+.sec{
+   width: 50%;
+   height: 932px;
+   float: left;
+}
+
+.vid1{
+   width: 60%;
+   height: 932px;
+   float: left;
+   position: relative;
+}
+
+.watch{
+   position: absolute;
+   bottom: 55PX;
+   left: 20PX;
+}
+.pic1{
+   width: 40%;
+   height: 932px;
+   float: left;
+   position: relative;
+   overflow: hidden;
+}
+
+.pic1:hover img{
+   scale: 1.1;
+}
+
+.pic2:hover img{
+   scale: 1.1;
+}
+
+.pic4:hover img{
+   scale: 1.1;
+}
+
+.pic5:hover img{
+   scale: 1.1;
+}
+
+.buy{
+   position: absolute;
+   bottom: 68px;
+   left: 35px;
+}
+
+.b1{
+   width: 120px;
+   height: 50px;
+}
+.pic2{
+   width: 40%;
+   height: 932px;
+   float: left;
+   overflow: hidden;
+}
+
+.pic3{
+   width: 60%;
+   height: 932px;
+   float: left;
+}
+
+.pic4{
+   width: 100%;
+   height: 30%;
+   position: relative;
+   overflow: hidden;
+}
+
+.gaming{
+   position: absolute;
+   bottom: 30PX;
+   left: 25PX;
+   font-size: 28px;
+}
+
+.pic5{
+   width: 100%;
+   height: 70%;
+   position: relative;
+   overflow: hidden;
+}
+
+.ar{
+   position: absolute;
+   top: 10px;
+   right: 10px;
+   font-size: 66px;
+}
+
+.p1{
+   width: 98%;
+   height: 98%;
+   border: #212121 solid;
+   display: block;
+   transition: .3s;
+}
+
+.v1{
+   width: 99%;
+   height: 99%;
+}
+
+.vg{
+   width: 28px;
+   height: 28px;
+}
+
+.footer{
+   width: 100%;
+   height: 50px;
+   background: #424242;
+   display: flex;
+   justify-content: space-between;
+}
+
+.left{
+   margin-left: 6px;
+   padding-top: 8px;
+   display: flex;
+}
+
+.right{
+   display: flex;
+}
